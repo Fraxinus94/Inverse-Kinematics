@@ -1,2 +1,2 @@
 # Inverse-Kinematics
-Raylib + ik
+Requires Raylib
