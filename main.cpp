@@ -37,11 +37,11 @@ struct Bullet
 
 int main()
 {
-    std::string title = "Coup d'état";
+    std::string title = "Coup d'Ã©tat";
 
     const int screenWidth = 720;
     const int screenHeight = 480;
-    InitWindow(screenWidth, screenHeight, "Coup d'état");
+    InitWindow(screenWidth, screenHeight, "Coup d'Ã©tat");
     SetTargetFPS(60);
 
     Vector2 center = { screenWidth * 0.5f, screenHeight * 0.5f };
@@ -88,7 +88,7 @@ int main()
 
     Font font = LoadFont("./fonts/adam.otf");
 
-    DrawTextEx(font, "Coup d'état", Vector2{ center.x + 80.0f, center.y }, 48, 1, Color(RED))
+    DrawTextEx(font, "Coup d'Ã©tat", Vector2{ center.x + 80.0f, center.y }, 48, 1, Color(RED))
 
     sf::Text menuText;
     menuText.setFont(font);
@@ -584,7 +584,7 @@ int main()
             highScore = score;
         }
 
-        menuText.setString("Coup d'état");
+        menuText.setString("Coup d'Ã©tat");
         spaceText.setString("Press 'Spacebar' to start");
         moneyText.setString("Eggs: " + std::to_string(money));
         scoreText.setString("Score: " + std::to_string(score));
